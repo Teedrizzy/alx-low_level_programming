@@ -3,10 +3,11 @@
 /**
  * main - the main function
  *
- * Return: 0 when it s successful
+ * Return: 0 when it is successful
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art.\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
