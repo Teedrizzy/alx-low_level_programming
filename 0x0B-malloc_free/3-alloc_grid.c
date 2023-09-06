@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include "holberton.h"
+#include <main.h>
+#include "stdlib.h"
 
 /**
  * alloc_grid - creates a two dimensional array of ints
@@ -24,7 +24,6 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		array[i] = (int *) malloc(sizeof(int) * width);
-
 		if (array[i] == NULL)
 		{
 			free(array);
