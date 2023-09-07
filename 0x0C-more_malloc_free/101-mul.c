@@ -17,7 +17,6 @@ void _is_zero(char *argv[])
 			if (argv[1][i] != '0')
 			{
 				isn1 = 0;
-
 				break;
 			}
 
@@ -73,6 +72,7 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
+
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
